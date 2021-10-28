@@ -25,8 +25,8 @@ body:after {
 }
 
 h1 {
-    grid-row-start: 1;
-    grid-column-start: 1;
+    grid-row-start: 0;
+    grid-column-start: 0;
     grid-column-end: 3;
     color: rgb(104, 85, 57);
     font-size: 48pt;
@@ -40,8 +40,8 @@ h1 {
 }
 
 img {
-    grid-row-start: 2;
-    grid-column-start: 1;
+    grid-row-start: 0;
+    grid-column-start: 0;
     max-width: 500px;
     max-height: 500px;
     border-radius: 10px;
@@ -51,14 +51,14 @@ img {
 
 ul {
     list-style-type: none;
-    grid-row-start: 2;
-    grid-column-start: 2;
+    grid-row-start: ;
+    grid-column-start: ;
     width: 200px;
     font-size: 14pt;
 } 
 
 ul:before {
-    content: 'Quick links';
+    content: 'Quick links ';
     font-family: 'Permanent Marker', cursive;
     color: rgb(28, 33, 104);
     background-color: rgba(245, 233, 149, 0.5);
